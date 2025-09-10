@@ -14,7 +14,7 @@ class block_logged_user extends block_base {
         // Get user details
         $user_initials = strtoupper(substr($USER->firstname, 0, 1) . substr($USER->lastname, 0, 1));
         $profile_image = $OUTPUT->user_picture($USER, ['size' => 50]);
-        $email = $USER->email;
+    
 
         // Get enrolled courses
         $courses = $DB->get_records_sql("

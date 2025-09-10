@@ -29,8 +29,8 @@ class block_logged_user_external extends external_api {
 
         return [
             'user_initials' => $user_initials,
-            'profile_image' => $profile_image_url,
-            'email' => $email,
+           
+           
             'courses' => $course_names
         ];
     }
