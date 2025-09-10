@@ -44,3 +44,5 @@ class block_logged_user_external extends external_api {
         ]);
     }
 }
+$plugin->version = 2025053108;
+$plugin->requires = 2020110900;

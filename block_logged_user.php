@@ -52,3 +52,5 @@ class block_logged_user extends block_base {
         return $PAGE->pagetype === 'my-index';
     }
 }
+$plugin->version = 2025053108;
+$plugin->requires = 2020110900;
