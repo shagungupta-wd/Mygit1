@@ -1,0 +1,12 @@
+.logged-user-block {
+    padding: 15px;
+    text-align: center;
+  }
+  .logged-user-block .user-profile {
+    margin-bottom: 15px;
+  }
+  .logged-user-block ul {
+    list-style: none;
+    padding: 0;
+  }
+  
